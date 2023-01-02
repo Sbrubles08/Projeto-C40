@@ -5,11 +5,24 @@
   <script src="libraries/p5.play.js"></script>
 
   <script src="js/form.js"></script>
-<!--Link game.js e player.js-->
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+  
    
 <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
 
-<!--Adicione configuração do banco de dados abaixo-->
+  <script>
+  const firebaseConfig = {
+  apiKey: "AIzaSyBgnxBFZVXmXdZ3T9VLGAabCnd1gPUU_YI",
+  authDomain: "projeto-c40-69dbd.firebaseapp.com",
+  databaseURL: "https://projeto-c40-69dbd-default-rtdb.firebaseio.com",
+  projectId: "projeto-c40-69dbd",
+  storageBucket: "projeto-c40-69dbd.appspot.com",
+  messagingSenderId: "939250574770",
+  appId: "1:939250574770:web:b3877a44c1787c224330ab"
+};
+    firebase.initializeApp(firebaseConfig);
+  </script>
   
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="utf-8">
